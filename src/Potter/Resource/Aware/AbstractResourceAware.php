@@ -8,6 +8,6 @@ abstract class AbstractResourceAware implements ResourceAwareInterface
 {
     abstract public function getResource(): mixed;
     abstract public function hasResource(): bool;
-    abstract public function readResource(int $length): string;
+    abstract public function readResource(): string;
     abstract public function writeResource(string $data): void;
 }
