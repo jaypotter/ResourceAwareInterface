@@ -9,4 +9,5 @@ interface ResourceAwareInterface
     public function getResource(): mixed;
     public function hasResource(): bool;
     public function readResource(int $length): string;
+    public function writeResource(string $data): void;
 }
