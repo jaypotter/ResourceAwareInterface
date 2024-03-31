@@ -8,6 +8,9 @@ interface ResourceAwareInterface
 {
     public function getResource(): mixed;
     public function hasResource(): bool;
+    
     public function readResource(): string;
+    public function getLastMessage(): string;
+        
     public function writeResource(string $data): void;
 }
