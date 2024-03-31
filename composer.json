@@ -1,0 +1,27 @@
+{
+    "name": "potter/resource-aware-interface",
+    "description": "PHP Resource Aware Interface",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "suggest": {
+        "potter/aware-interfaces": "dev-main",
+        "potter/aware": "dev-main",
+        "potter/contracts": "dev-main",
+        "potter/framework": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Resource\\Aware\\": "src/Potter/Resource/Aware/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
